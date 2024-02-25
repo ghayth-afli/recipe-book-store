@@ -7,10 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'recipe-book-store';
-  shopList: boolean = false;
-  recipes: boolean = true;
-  navigateTo(msg) {
-    this.shopList = msg.shopList;
-    this.recipes = msg.recipes;
-  }
 }
